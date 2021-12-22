@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://VideoJuego/Interfaz/contenedorInfo.tscn" type="PackedScene" id=1]
+
+[sub_resource type="Animation" id=1]
+resource_name = "animacionVidas"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("TextureRect:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4, 0.6, 0.7, 0.9, 1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 72.6561, 10.8348 ), Vector2( 72.6561, 3.76377 ), Vector2( 74.0703, 12.2491 ), Vector2( 74.0703, 12.2491 ), Vector2( 74.0703, 12.2491 ), Vector2( 74.0703, 12.2491 ), Vector2( 72.6561, 10.8348 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("TextureRect:rect_rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4, 0.6, 0.7, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0, 0.0, -14.6902, 5.69046, -0.116359 ]
+}
+
+[node name="contenedorVidas" instance=ExtResource( 1 )]
+margin_bottom = 54.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="2"]
+autoplay = "animacionVidas"
+anims/animacionVidas = SubResource( 1 )

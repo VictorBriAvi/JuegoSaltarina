@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/musicaFondo.ogg-36aa818f366a5c117ed470a90bffcfc8.oggstr"
+
+[deps]
+
+source_file="res://Recursos/Sfx/musicaFondo.ogg"
+dest_files=[ "res://.import/musicaFondo.ogg-36aa818f366a5c117ed470a90bffcfc8.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

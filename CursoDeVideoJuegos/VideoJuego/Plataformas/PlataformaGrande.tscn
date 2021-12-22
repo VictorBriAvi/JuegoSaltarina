@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://VideoJuego/Plataformas/PlataformaBase.tscn" type="PackedScene" id=1]
+
+[node name="PlataformaGrande" instance=ExtResource( 1 )]
+scale = Vector2( 1.5, 1 )
+
+[node name="Sprite" parent="." index="0"]
+scale = Vector2( 1.5, 1 )
+
+[node name="CollisionPolygon2D" parent="." index="1"]
+visible = false
+polygon = PoolVector2Array( -92, -48, 196, -48, 240, -48, 252, -48, 317.333, -48, 349.333, -44, 349.333, -16, 322.667, 16, 306.667, 32, 293.333, 36, 224, 36, 28, 44, -100, 48, -178.667, 48, -218.667, -12, -221.333, -20, -218.667, -48 )

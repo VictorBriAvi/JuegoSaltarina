@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/MonedasNormales.wav-bc0d74d23517b0a9af7c1ec48c654786.sample"
+
+[deps]
+
+source_file="res://Recursos/Sfx/MonedasNormales.wav"
+dest_files=[ "res://.import/MonedasNormales.wav-bc0d74d23517b0a9af7c1ec48c654786.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
